@@ -1,0 +1,32 @@
+[
+    {
+        "command": "/home/mi/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/demo/libc1d/SPI/spi.o -c -Wno-error=narrowing -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -I.pio/libdeps/demo/SPI/include -I.pio/libdeps/demo/SPI/src -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/mi/.platformio/packages/toolchain-atmelavr/avr/include .pio/libdeps/demo/SPI/src/spi.cpp",
+        "directory": "/home/mi/docs/prog/MCU/libraries/SD",
+        "file": ".pio/libdeps/demo/SPI/src/spi.cpp",
+        "output": ".pio/build/demo/libc1d/SPI/spi.o"
+    },
+    {
+        "command": "/home/mi/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/demo/lib008/strings/strings.o -c -Wno-error=narrowing -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -std=gnu++1z -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -I.pio/libdeps/demo/strings/include -I.pio/libdeps/demo/strings/src -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/mi/.platformio/packages/toolchain-atmelavr/avr/include .pio/libdeps/demo/strings/src/strings.cpp",
+        "directory": "/home/mi/docs/prog/MCU/libraries/SD",
+        "file": ".pio/libdeps/demo/strings/src/strings.cpp",
+        "output": ".pio/build/demo/lib008/strings/strings.o"
+    },
+    {
+        "command": "/home/mi/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/demo/libc46/petitFatFS/pff.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DF_CPU=16000000L -I.pio/libdeps/demo/petitFatFS/include -I.pio/libdeps/demo/petitFatFS/src -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/mi/.platformio/packages/toolchain-atmelavr/avr/include .pio/libdeps/demo/petitFatFS/src/pff.c",
+        "directory": "/home/mi/docs/prog/MCU/libraries/SD",
+        "file": ".pio/libdeps/demo/petitFatFS/src/pff.c",
+        "output": ".pio/build/demo/libc46/petitFatFS/pff.o"
+    },
+    {
+        "command": "/home/mi/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/demo/examples/main.o -c -Wno-error=narrowing -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -std=gnu++1z -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -pedantic -O3 -Os -DF_CPU=16000000L -DPLATFORMIO=60118 -DARDUINO_AVR_ATmega328P -Iinclude -Isrc -I.pio/libdeps/demo/petitFatFS/include -I.pio/libdeps/demo/petitFatFS/src -I.pio/libdeps/demo/strings/include -I.pio/libdeps/demo/strings/src -I.pio/libdeps/demo/SPI/include -I.pio/libdeps/demo/SPI/src -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/mi/.platformio/packages/toolchain-atmelavr/avr/include examples/main.cpp",
+        "directory": "/home/mi/docs/prog/MCU/libraries/SD",
+        "file": "examples/main.cpp",
+        "output": ".pio/build/demo/examples/main.o"
+    },
+    {
+        "command": "/home/mi/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/demo/src/sd.o -c -Wno-error=narrowing -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -std=gnu++1z -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -pedantic -O3 -Os -DF_CPU=16000000L -DPLATFORMIO=60118 -DARDUINO_AVR_ATmega328P -Iinclude -Isrc -I.pio/libdeps/demo/petitFatFS/include -I.pio/libdeps/demo/petitFatFS/src -I.pio/libdeps/demo/strings/include -I.pio/libdeps/demo/strings/src -I.pio/libdeps/demo/SPI/include -I.pio/libdeps/demo/SPI/src -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed -I/home/mi/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include -I/home/mi/.platformio/packages/toolchain-atmelavr/avr/include src/sd.cpp",
+        "directory": "/home/mi/docs/prog/MCU/libraries/SD",
+        "file": "src/sd.cpp",
+        "output": ".pio/build/demo/src/sd.o"
+    }
+]

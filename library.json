@@ -1,0 +1,30 @@
+{
+	"name": "ssd1306",
+	"version": "0.9.0",
+	"description": "interface for OLED display based on SSD1306 chip",
+	"keywords": "oled, ssd1306, display, arduino, atmega328",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/m328pb/ssd1306"
+	},
+	"authors":{
+		"name":"Michal Zielaskowski",
+		"email":"michal.zielaskowski@gmail.com"
+	},
+	"license":"GPL-3.0",
+	"platforms":"atmelavr",
+	"dependencies":
+	[
+		{
+			"name": "I2C",
+			"version": "https://github.com/m328pb/i2c"
+		},
+		{
+			"name": "strings",
+			"version": "https://github.com/m328pb/strings"
+		}
+	],
+	"examples":[
+		"examples/*/*.c"
+	]
+}
